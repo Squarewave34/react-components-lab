@@ -2,3 +2,26 @@ body{
   margin: 0;
   box-sizing: border-box;
 }
+
+h1{
+  text-align: center;
+}
+
+section {
+  display: inline;
+}
+
+section .weather {
+  padding: 10px;
+  text-align: center;
+}
+
+.weather span {
+  font-weight: bold;
+}
+.card{
+  display: inline-block;
+  background-color: #767c9d;
+  padding: 30px;
+  margin: 10px 5px;
+}
